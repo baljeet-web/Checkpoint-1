@@ -117,3 +117,7 @@ button{
     margin-top: 24px;
     font-size: x-large;
 }
+a{
+      text-decoration: none;
+      color: white;
+}
