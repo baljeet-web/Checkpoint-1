@@ -1,13 +1,58 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+    <title>Checkpoint-1</title>
+</head>
+<body class="center">
+    <header class="background">
+        <span class="green">HOME</span> <a href="blog.html">BLOG</a>
+    </header>
+    <main>
+        <section>
+            <h1>
+                The Box Model, Box Sizing, and Box Shadow
+            </h1>
+            <h2>
+                Exercise One
+            </h2>
+            <div class="box"></div>
+            <div class="circles">
+                
+                <div class="circle one"></div>
+                <span class="gap">#99D8CA</span>
+
+                <div class="circle two"></div>
+                <span class="gap">#99D8CA</span>
+
+                <div class="circle three"></div>
+                <span class="gap">#99D8CA</span>
+
+                <div class="circle four"></div>
+                <span class="gap">#99D8CA</span>
+            </div>
+            <hr>
+        </section>
+        <section>
+            <h2>Exercise Two</h2>
+            <div class="boxes-without-border">
+                <div class="three-boxes"></div>
+                <div class="three-boxes"></div>
+                <div class="three-boxes"></div>
+            </div>
+            <hr>
+            <div class="boxes-with-border boxes-without-border">
+                <div class="three-boxes border"></div>
+                <div class="three-boxes border"></div>
+                <div class="three-boxes border"></div>
+            </div>
+             
+        </section>
+    </main>
+    
+</body>
+</html>

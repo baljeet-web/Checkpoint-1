@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my cusomisation */
+/* my cusomisation */
+/* my cusomisation */
+/* my cusomisation */
+
+.background{
+    background-color: rgb(9,26,76);
+    word-spacing: 10px;
+    color: white;
+    padding: 30px 0px;
+}
+
+.center{
+    text-align: center;
+}
+
+.green{
+    color: rgb(61,134,63);
+}
+
+h1{
+    font-size: x-large;
+    padding: 20px 0px
+}
+.box{
+    padding: 25px 0px;
+    background-color: rgb(153,216,202);
+    width: 200px;
+    height: 180px;
+    border: 10px solid rgb(86,113,222);
+    box-shadow: 0 0 0 20px rgb(137,239,168);
+    outline:10px solid rgb(13,20,48);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 530px;
+    border-radius: 5px;
+}
+
+.circle{
+    border: 1px solid black;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 5px;
+}
+
+.circles{
+   
+   display: inline-flex;
+   border: 3PX solid black;
+   padding: 10px;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+
+.one{
+  background-color: rgb(153,216,202);
+}
+
+.two{
+    background-color: rgb(13,20,48);
+}
+
+.three{
+    background-color:rgb(137,239,168)
+}
+
+.four{
+    background-color: rgb(88,115,226);
+}
+.gap{
+    margin-right: 12px;
+}
+
+hr{
+    border: 1px dashed rgb(160,163,162);
+    margin: 50px 50px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.boxes-without-border{
+    border: 2px solid rgb(16,24,55);
+    height: 150px;
+    width: 1050px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.three-boxes{
+    height: 130px;
+    width: 340px;
+    background-color: rgb(218,224,250);
+    display: inline-block;
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+
+}
+
+.border{
+    border: 2px solid black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
